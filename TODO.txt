@@ -1,0 +1,9 @@
+1.Include an image for a specific purpose.
+
+2.Store the attachment on Azure Blob Storage.
+
+3.Verify if we can add a carousel of images to Azure Blob Storage.
+
+4.Implement search functionality.
+
+5.Migrate to the latest version of .NET.
