@@ -1,0 +1,34 @@
+﻿@*@model IEnumerable<EmployeeApplication.Models.EmployeeModel>*@
+@using EmployeeApplication.Models
+@model IEnumerable<EmployeeModel>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+ <h3 class="display-4">All Employees</h3>
+ <div class="row">
+ @foreach (var emp in Model)
+ {
+ <div class="col-md-4">
+ <div class="card mb-4 shadow-sm">
+ <svg class="bd-placeholder-img card-img-top" width="100%"
+height="225" xmlns="http://www.w3.org"></svg>
+ <div class="card-body">
+ <h3 class="card-title">@emp.Id</h3>
+                        <p class="card-text">@emp.Designation</p>
+ <div class="d-flex justify-content-between align-itemscenter">
+ <div class="btn-group">
+ <a href="/employee/getemployee/@emp.Id" class="btn btn-sm btn-outlinesecondary">View Details</a>
+ </div>
+ <small class="text-muted">@emp.Name</small>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+ 

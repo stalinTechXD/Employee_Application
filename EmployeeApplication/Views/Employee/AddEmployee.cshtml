@@ -1,0 +1,51 @@
+﻿@model EmployeeApplication.Models.EmployeeModel
+ 
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    @if (ViewBag?.IsSuccess)
+    {
+        <div class="alert alert-success" role="alert">
+            Record successsfully inserted
+        </div>
+    }
+    <form method="post" asp-action="AddEmployee" asp-controller="employee">
+        <div class="form-group">
+            <label asp-for="Id"></label>
+            <input asp-for="Id" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address"></label>
+            <input asp-for="Address" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Designation"></label>
+            <input asp-for="Designation" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Salary"></label>
+            <input asp-for="Salary" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Add Emp" class="btn btn-primary" />
+        </div>
+
+
+    </form>
+
+
+</div>
+
+ 
