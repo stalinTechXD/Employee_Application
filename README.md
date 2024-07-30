@@ -24,4 +24,20 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/employee-application.git
+   git clone https://github.com/stalinTechXD/employee-application.git
+
+2. **Navigate to the Project Directory:**:
+   ```bash
+   cd employee-application
+   
+3. **Install Dependencies::**:
+   ```bash
+   dotnet restore
+
+4. **Run the Application::**:
+   ```bash
+   dotnet run
+
+5. **Open the browser:**:
+   ```bash
+   [dotnet run](http://localhost:5000)
