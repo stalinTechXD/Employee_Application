@@ -41,3 +41,6 @@ To get started with this project, follow these steps:
 5. **Open the browser:**:
    ```bash
    [dotnet run](http://localhost:5000)
+
+# Contributing
+Contributions are welcome! If you have suggestions or find issues, please create a pull request or open an issue.
