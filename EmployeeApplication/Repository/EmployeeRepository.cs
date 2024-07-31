@@ -98,8 +98,8 @@ namespace EmployeeApplication.Repository
         {
             return new List<EmployeeModel>() {
                 new EmployeeModel() { Id = 1 , Address = "usa", Name ="stalin" , Designation = "senior dev"},
-                new EmployeeModel() { Id = 2 , Address = "india", Name ="damn" ,Designation ="manager"},
-                new EmployeeModel() { Id = 3 , Address = "come on sir", Name ="fu yu" , Designation = "ceo"}
+                new EmployeeModel() { Id = 2 , Address = "india", Name ="sunny" ,Designation ="junior"},
+                new EmployeeModel() { Id = 3 , Address = "france", Name ="leena" , Designation = "ceo"}
             };
         }
 
