@@ -1,4 +1,4 @@
-# Employee Application
+# AI Employee Application
 
 Welcome to the **Employee Application** repository! This project is a web application designed for managing employee records. It provides features to add, edit, delete, and search for employees.
 
